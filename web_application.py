@@ -15,7 +15,7 @@ def application(environ, start_response):
     if path == '/':
         response_body = "Index"
     elif path == '/hello':
-        response_body = "Hell"
+        response_body = "Helloooo"
     else:
         status = "404 Not Found"
         response_body = "Page not found"
